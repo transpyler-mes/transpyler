@@ -12,11 +12,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 1.8.7.1\n"
 
 #. range.name
 msgid "range"
-msgstr "intervalo"
+msgstr ""
+"intervalo\n"
+"varia"
 
 #. range.doc
 msgid ""
@@ -52,7 +54,9 @@ msgstr "args"
 
 #. sleep.name
 msgid "sleep"
-msgstr "dormir"
+msgstr ""
+"dormir\n"
+"descansar"
 
 #. sleep.doc
 msgid ""
@@ -70,7 +74,9 @@ msgstr ""
 msgid "exit"
 msgstr ""
 "sair\n"
-"saia"
+"saia\n"
+"fechar\n"
+"fecha"
 
 #. exit.doc
 msgid "Finish program execution."
@@ -177,7 +183,9 @@ msgstr "texto, args, kwargs"
 msgid "print"
 msgstr ""
 "mostrar\n"
-"mostre"
+"mostre\n"
+"exibir\n"
+"exibe"
 
 #. print.doc
 msgid ""
@@ -386,7 +394,9 @@ msgstr "self, passo"
 #. Turtle:clear.name
 #. clear.name
 msgid "clear"
-msgstr "limpar"
+msgstr ""
+"limpar\n"
+"limpa"
 
 #. Turtle:clear.doc
 #. clear.doc
@@ -636,7 +646,9 @@ msgstr "self, ângulo"
 #. Turtle:pendown.name
 #. pendown.name
 msgid "pendown"
-msgstr "abaixar_caneta"
+msgstr ""
+"abaixar_caneta\n"
+"descer_caneta"
 
 #. Turtle:pd.doc
 #. Turtle:pendown.doc
@@ -653,7 +665,9 @@ msgstr ""
 #. Turtle:pu.name
 #. penup.name
 msgid "penup"
-msgstr "levantar_caneta"
+msgstr ""
+"levantar_caneta\n"
+"subir_caneta"
 
 #. Turtle:penup.doc
 #. Turtle:pu.doc
@@ -707,7 +721,9 @@ msgstr ""
 msgid "setavatar"
 msgstr ""
 "definir_avatar\n"
-"defina_avatar"
+"defina_avatar\n"
+"escolher_avatar\n"
+"escolha_avatar"
 
 #. Turtle:setavatar.doc
 #. setavatar.doc
@@ -856,7 +872,7 @@ msgstr "args, kwargs, tuga"
 msgid "cos"
 msgstr ""
 "cos\n"
-"coseno"
+"cosseno"
 
 #. cos.doc
 msgid "Cosine of an angle (in degrees)"
@@ -870,7 +886,9 @@ msgstr "ângulo"
 
 #. sin.name
 msgid "sin"
-msgstr "seno"
+msgstr ""
+"seno\n"
+"sen"
 
 #. sin.doc
 msgid "Sine of an angle (in degrees)"
@@ -878,7 +896,9 @@ msgstr "Seno de um ângulo (em graus)"
 
 #. tan.name
 msgid "tan"
-msgstr "tangente"
+msgstr ""
+"tangente\n"
+"tan"
 
 #. tan.doc
 msgid "Tangent of an angle (in degrees)"
@@ -989,7 +1009,9 @@ msgstr ""
 
 #. sum.name
 msgid "sum"
-msgstr "soma"
+msgstr ""
+"soma\n"
+"somar"
 
 #. sum.doc
 msgid ""
@@ -1132,7 +1154,9 @@ msgstr ""
 
 #. Vec:count
 msgid "count"
-msgstr "contar"
+msgstr ""
+"contar\n"
+"conte"
 
 #. Vec:from_angle
 msgid "from_angle"
@@ -1173,7 +1197,9 @@ msgstr "self, invertido"
 
 #. Vec:rotate.name
 msgid "rotate"
-msgstr "girar"
+msgstr ""
+"girar\n"
+"rotacionar"
 
 #. Vec:rotate.doc
 msgid "Return rotated vector by the given angle."
@@ -1211,7 +1237,7 @@ msgstr ""
 msgid "cls"
 msgstr ""
 "cos\n"
-"coseno"
+"cosseno"
 
 #. cls.doc
 msgid "Clear screen"
