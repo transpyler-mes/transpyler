@@ -1,7 +1,7 @@
 import pytest
 
 from transpyler.translate import extract_translations, \
-    extract_translation, translate_mod
+    extract_translation
 
 
 class TestExtractTranslations:
@@ -53,28 +53,28 @@ class TestExtractTranslations:
         }
 
 
-class TestTranslateModule:
-    def test_translate_mod(self):
-        from transpyler.tests import mod
+# class TestTranslateModule:
+#     def test_translate_mod(self):
+#         from transpyler.tests import mod
 
-        new_mod = translate_mod('pt_BR', mod)
-        public_names = {x for x in dir(new_mod) if not x.startswith('_')}
-        assert public_names == {
-            'cos', 'coseno', 'mostrar', 'mostre', 'print',
-        }
+#         new_mod = translate_mod('pt_BR', mod)
+#         public_names = {x for x in dir(new_mod) if not x.startswith('_')}
+#         assert public_names == {
+#             'cos', 'coseno', 'mostrar', 'mostre', 'print',
+#         }
 
-        assert new_mod.mostre.__doc__.startswith(
-            'Mostra o objeto ou texto fornecido na tela.')
-        # assert new_mod.cos.__doc__ == ''
+#         assert new_mod.mostre.__doc__.startswith(
+#             'Mostra o objeto ou texto fornecido na tela.')
+#         # assert new_mod.cos.__doc__ == ''
 
-    def test_translate_standard_module_to_pt_BR(self):
-        mod = translate_mod('pt_BR')
+#     def test_translate_standard_module_to_pt_BR(self):
+#         mod = translate_mod('pt_BR')
 
-        assert mod.mostre
-        assert mod.mostrar
+#         assert mod.mostre
+#         assert mod.mostrar
 
-    def test_translate_standard_module_to_es_BR(self):
-        mod = translate_mod('es_BR')
+#     def test_translate_standard_module_to_es_BR(self):
+#         mod = translate_mod('es_BR')
 
-        print('\n'.join(dir(mod)))
-        assert mod.imprimir
+#         print('\n'.join(dir(mod)))
+#         assert mod.imprimir
