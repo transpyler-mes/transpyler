@@ -2,7 +2,7 @@ import builtins as _builtins
 import importlib
 from types import ModuleType as _Module
 
-from pytuga import lib as tugalib
+tugalib = None
 from pytuga.transpyler import pytuga_transpyler
 from transpyler import utils as tuga_util
 

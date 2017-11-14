@@ -21,8 +21,7 @@ class PytugaTranspyler(Transpyler):
     lang = 'pt_BR'
 
     def apply_curses(self):
-        from pytuga.lib.curses import apply_curses
-        apply_curses()
+        pass
 
     def update_user_ns(self, ns):
         @pretty_callable(
